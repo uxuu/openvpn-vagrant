@@ -156,7 +156,7 @@ Vagrant.configure("2") do |config|
 
   config.vm.define "msibuilder" do |box|
     box.vm.box = "gusztavvargadr/windows-server"
-    box.vm.box_version = "1809.0.2012"
+    box.vm.box_version = "1809.0.2208"
     box.winrm.max_tries = 90
     box.winrm.retry_delay = 2
     box.winrm.timeout = 360
@@ -201,7 +201,7 @@ Vagrant.configure("2") do |config|
 
   config.vm.define "msibuilder25" do |box|
     box.vm.box = "gusztavvargadr/windows-server"
-    box.vm.box_version = "1809.0.2012"
+    box.vm.box_version = "1809.0.2208"
     box.winrm.max_tries = 90
     box.winrm.retry_delay = 2
     box.winrm.timeout = 360
