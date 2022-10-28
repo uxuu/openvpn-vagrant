@@ -5,7 +5,7 @@ echo "Installing sbuild_wrapper dependencies"
 apt-get -y install sbuild git quilt debhelper
 echo
 echo "Cloning sbuild_wrapper if not present"
-test -d sbuild_wrapper || git clone --branch fixes https://github.com/mattock/sbuild_wrapper.git
+test -d sbuild_wrapper || git clone https://github.com/mattock/sbuild_wrapper.git
 echo
 echo "Setting up sbuild_wrapper and schroots"
 cd sbuild_wrapper
